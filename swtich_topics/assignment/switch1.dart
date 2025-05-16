@@ -9,7 +9,7 @@ void main() {
   stdout.write("Enter second number");
   double num2 = double.parse(stdin.readLineSync()!);
 
-  stdout.write("Enter an operator");
+  stdout.write("Enter an operator (+ - / * )");
   String operator = stdin.readLineSync()!;
   double num3;
   double num4;

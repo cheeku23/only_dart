@@ -10,27 +10,14 @@ void main() {
 
   switch (alphabet) {
     case "a":
-      print(" it's a vowel");
-      break;
-
     case "e":
-      print(" it's a vowel");
-      break;
-
     case "i":
-      print(" it's a vowel");
-      break;
-
     case "o":
-      print(" it's a vowel");
-      break;
-
     case "u":
-      print(" it's a vowel");
-      break;
+      print(" the input is vowel $alphabet");
 
     default:
       print("It's a consonant");
-      break;
+     
   }
 }
